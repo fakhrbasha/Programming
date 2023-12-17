@@ -1,0 +1,19 @@
+#include <bits/stdc++.h>
+#define ll long long
+ 
+ 
+using namespace std;
+int main()
+{
+  ll x;  cin >>x;
+  int count = 0;
+    while (x > 0)
+    {
+      if ( x % 2){
+          count++;
+      };
+      x /= 2;
+    }
+  cout << count <<endl;
+  return 0;
+} 
